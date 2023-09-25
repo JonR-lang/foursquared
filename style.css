@@ -78,6 +78,7 @@ body {
     opacity: 0.6;
     pointer-events: none;
     text-decoration: none;
+    color: white;
 }
 
 .name-date-on-card {
@@ -127,7 +128,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    /* display: none; */
 }
 
 .input-container {
@@ -160,6 +160,10 @@ input {
     border: 1px solid var(--Lightgrayish-violet);
     border-radius: 5px;
     font-family: 'Space Grotesk', sans-serif;
+}
+
+input.active { 
+    border-color: red;
 }
 
 input::placeholder {
@@ -196,9 +200,7 @@ button:hover {
 }
 
 .error-message {
-    display: none;
     color: var(--Red);
-
 }
 
 .thank-you-container {
@@ -359,7 +361,7 @@ button:hover {
 
 @media screen and (max-height:700px) {
     .container {
-        min-height: 700px;
+        min-height: 800px;
     }
     
 }
