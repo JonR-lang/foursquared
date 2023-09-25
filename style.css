@@ -76,6 +76,8 @@ body {
     letter-spacing: .07rem;
     text-align: center;
     opacity: 0.6;
+    pointer-events: none;
+    text-decoration: none;
 }
 
 .name-date-on-card {
