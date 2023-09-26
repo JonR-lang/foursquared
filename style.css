@@ -359,7 +359,7 @@ button:hover {
     }
 }
 
-@media screen and (max-height:700px) {
+@media screen and (max-height:580px) {
     .container {
         min-height: 800px;
     }
